@@ -1,0 +1,190 @@
+body {
+    max-width: 1400px;
+    background: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+section {
+    border: 1px red solid;
+}
+
+
+h1 {
+    /* display: none; (si on veut utiliser h2 pour les titres) */
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+/*PARTIE HEADER*/
+
+header {
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 65px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Les liens de la navigation*/
+.navigation {
+    
+    color:black;
+    text-decoration: none;
+    padding: 26px 26px 26px 26px;
+}
+
+.navigation:hover {
+    color: #0065fc;
+    border-top: 3px #0065fc solid;
+}
+
+
+/*FORMULAIRE DE RECHERCHE*/
+
+.formulaire {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin : 15px 0;
+}
+
+.label {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 15px 0 0 15px;
+    margin-right: -5px;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.search {
+    border: 1px solid #f2f2f2;
+    margin-right: -5px;
+    padding: 14px;
+}
+
+.searchbutton {
+    color: white;
+    background-color: #0065fc;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    margin: 0px;
+    padding: 15px;
+}
+    
+
+/*FILTRES*/
+
+.filtres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.filtres a {
+    display: flex;
+    align-items: center;
+    color : black;
+    text-decoration: none;
+    border: 3px solid #f2f2f2;
+    border-radius: 25px;
+    padding: 9px 15px 9px 15px;
+    margin: 0 25px 0 25px;
+}
+
+.filtres a:hover {
+    background-color: #deebff;
+}
+
+.icones {
+    font-size : 1.2em ; 
+    color : #0065fc;
+}
+
+/*INFO*/
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info i {
+    font-size: 0.6em;
+    color : #0065fc;
+    border : solid 1.5px #f2f2f2;
+    padding: 2px 5px 2px 5px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+/*SECTION HEBERGEMENT*/
+
+.SectionHebergement {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ConteneurHebergement {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.ConteneurPopulaire {
+    width: 35%;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 15px;
+} 
+
+.OrganisationHeb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.HebCard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.HebCard img {
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+    padding: 5px;
+}
+
+.note {
+    color : #0065fc;
+}
+
+#badnote {
+    color: #f2f2f2;
+}

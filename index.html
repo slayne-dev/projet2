@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - Booki</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Police Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!--Kit Font Awesome-->
+    <script src="https://kit.fontawesome.com/5a75c2fdb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!--HEADER-->
+<header>
+    <div>
+        <a href="index.html"><img class="logo" src="Images/logo/Booki.png" alt="Logo de Booki"></a>
+    </div>
+    <nav>
+        <div>
+            <a href="#ancre_hebergements" class="navigation">Hébergements</a>
+            <a href="#ancre_activites" class="navigation">Activités</a>
+        </div>
+    </nav>
+
+</header>
+
+<main>
+
+    <!--SECTION RECHERCHE-->
+    <section>
+
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+
+        <!--formulaire de recherche-->
+        <div class="formulaire">
+            <form method="post" action="formulaire.html">
+            
+                    <span class="label"><label for="rechercher"><i class="fa-solid fa-location-dot"></i></label></span>
+                    <input class="search" type="search" name="rechercher" id="rechercher" value="Marseille, France" placeholder="Où?" required>
+                    <input class="searchbutton" type="submit" value="Rechercher">
+                
+            </form>
+        </div>
+
+        <!--Filtres-->
+        <div class="filtres">
+            <p>Filtres</p>
+            <a href="#">
+                <span class="icones"><i class="fa-solid fa-money-bill-wave"></i></span>
+                &ensp;Économique
+            </a>
+            <a href="#">
+                <span class="icones"><i class="fa-solid fa-person"></i></span>
+                &ensp;Familial
+            </a>
+            <a href="#">
+                <span class="icones"><i class="fa-solid fa-heart"></i></span>
+                &ensp;Romantique
+            </a>
+            <a href="#">
+                <span class="icones"><i class="fa-solid fa-dog"></i></span>
+                &ensp;Animaux autorisés
+            </a>
+        </div>
+
+        <div class="info">
+            <i class="fa-solid fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        
+    </section>
+
+    <!--SECTION HEBERGEMENT-->
+    <section class="SectionHebergement">
+
+        <!--Hébergements à Marseille-->
+        <div class="ConteneurHebergement">
+
+            <h1>Hébergements à Marseille</h1>
+
+            <!--Les cartes hébergements-->
+            <div class="OrganisationHeb">
+                
+                <div class="HebCard">
+                    <img src="Images/hebergements/4_small/la_canebiere.jpg" alt="photo de l'auberge La Canebière, hébergement à Marseille">
+                    <p><b>Auberge La Canebière</b></p>
+                    <p>Nuit à partir de 25€</p>
+                    <div class="note">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span id="badnote"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        <!--Les plus populaires-->
+        <aside class="ConteneurPopulaire">
+
+            <h1>Les plus populaires</h1>
+
+        </aside>
+
+    </section>
+
+</main>
+
+</body>
+
+</html>
