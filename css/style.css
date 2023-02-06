@@ -9,6 +9,7 @@ body {
 
 section {
     border: 1px red solid;
+    padding: 0 50px;
 }
 
 
@@ -16,6 +17,16 @@ h1 {
     /* display: none; (si on veut utiliser h2 pour les titres) */
     font-size: x-large;
     font-weight: bolder;
+}
+
+h2 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -26,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 }
 
 .logo {
@@ -95,13 +107,12 @@ input {
     justify-content: flex-start;
     align-items: center;
     font-weight: bolder;
+    margin: 15px 15px 0 15px;
 }
 
 .filtres a {
     display: flex;
     align-items: center;
-    color : black;
-    text-decoration: none;
     border: 3px solid #f2f2f2;
     border-radius: 25px;
     padding: 9px 15px 9px 15px;
@@ -123,6 +134,7 @@ input {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin: 0px 15px 0 15px;
 }
 
 .info i {
@@ -148,18 +160,34 @@ input {
     width: 58%;
     background-color: #f2f2f2;
     border-radius: 25px;
-    padding: 15px;
+    padding: 20px 25px;
+}
+
+.ConteneurHebergement h2 {
+    margin-left: 10px;
+}
+
+#afficher {
+    margin-left: 10px;
+}
+
+#afficher:hover {
+    text-decoration: underline;
 }
 
 .ConteneurPopulaire {
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     background-color: #f2f2f2;
     border-radius: 25px;
-    padding: 15px;
+    padding: 20px 35px;
 } 
 
 .OrganisationHeb {
     display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -168,23 +196,80 @@ input {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 25px;
     box-sizing: border-box;
+    margin-bottom: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .HebCard img {
-    width: 250px;
-    height: 130px;
+    width: 220px;
+    height: 100px;
     object-fit: cover;
     max-width: 100%;
-    border-radius: 15px 15px 0 0;
-    padding: 5px;
+    border-radius: 25px 25px 0 0;
+    padding: 5px 5px 0 5px;
+}
+
+.CardDescription {
+    padding: 5px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.CardDescription p,i {
+    margin: 3px 0 3px 0;
+    font-size: smaller;
 }
 
 .note {
     color : #0065fc;
 }
 
-#badnote {
+.badnote {
     color: #f2f2f2;
 }
+
+.TitrePopulaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.PopCard {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 25px;
+}
+
+.PopCard img {
+    height: 125px;
+    width: 115px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 25px 0 0 25px;
+    padding: 5px 0 5px 5px;
+}
+
+.PopDescription {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 15px 15px;
+    justify-content: space-between;
+}
+
+.PopDescription p,i {
+    font-size: smaller;
+}
+
+.PopDescription p {
+    margin: 6px 0;
+}
+
