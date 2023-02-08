@@ -1,5 +1,6 @@
 body {
     max-width: 1400px;
+    max-height: fit-content;
     background: #ffffff;
     font-family: 'Raleway', sans-serif;
     color:black;
@@ -7,9 +8,13 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    margin: 0;
+}
+
 section {
-    border: 1px red solid;
-    padding: 0 50px;
+    /*border: 1px red solid;*/
+    padding: 15px 50px;
 }
 
 
@@ -33,7 +38,7 @@ a {
 /*PARTIE HEADER*/
 
 header {
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -308,4 +313,34 @@ input {
     font-size: medium;
     font-weight: bolder;
     padding: 5px 0 5px 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 20px 55px;
+}
+
+.FooterList {
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+}
+
+.FooterList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+h3 {
+    margin-bottom: -2px;
+}
+.FooterList li {
+    margin: 7px 0;
 }
