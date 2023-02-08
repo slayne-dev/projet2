@@ -273,3 +273,39 @@ input {
     margin: 6px 0;
 }
 
+/*SECTION ACTIVITES*/
+
+.SectionActivites {
+    display: flex;
+    flex-direction: column;
+}
+
+.OrganisationAct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ActCard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0;
+}
+
+.ActCard img {
+    height: 400px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.ActCard figcaption {
+    font-size: medium;
+    font-weight: bolder;
+    padding: 5px 0 5px 10px;
+}
