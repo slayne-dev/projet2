@@ -239,9 +239,9 @@ input {
     justify-content: flex-start;
 }
 
-.CardDescription p,i {
+.CardDescription h4,p,i {
     margin: 3px 0 3px 0;
-    font-size: smaller;
+    font-size: medium;
 }
 
 .note {
@@ -282,12 +282,13 @@ input {
 .PopDescription {
     display: flex;
     flex-direction: column;
+    width: 180px;
     padding: 15px 0 15px 15px;
     justify-content: space-between;
 }
 
-.PopDescription p,i {
-    font-size: smaller;
+.PopDescription h4,p,i {
+    font-size: medium;
 }
 
 .PopDescription p {
@@ -338,14 +339,14 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 50px 50px 0 50px;
     padding: 20px 55px;
 }
 
 .FooterList {
     display: flex;
     flex-direction: column;
-    margin-right: 220px;
+    margin-right: 215px;
 }
 
 .FooterList ul {
