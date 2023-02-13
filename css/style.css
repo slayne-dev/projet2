@@ -1,6 +1,5 @@
 body {
     max-width: 1400px;
-    max-height: fit-content;
     background: #ffffff;
     font-family: 'Raleway', sans-serif;
     color:black;
@@ -14,7 +13,7 @@ main {
 
 section {
     /*border: 1px red solid;*/
-    padding: 15px 50px;
+    padding: 10px 50px;
 }
 
 
@@ -27,6 +26,15 @@ h1 {
 h2 {
     font-size: x-large;
     font-weight: bolder;
+}
+
+h3 {
+    margin-bottom: -2px;
+}
+
+h4 {
+    font-size: medium;
+    margin: 0;
 }
 
 a {
@@ -67,6 +75,14 @@ header {
 
 
 /*FORMULAIRE DE RECHERCHE*/
+
+#h1recherche {
+    margin: 0;
+}
+
+#enplein {
+    margin-top: 10px;
+}
 
 .formulaire {
     display: flex;
@@ -112,7 +128,7 @@ input {
     justify-content: flex-start;
     align-items: center;
     font-weight: bolder;
-    margin: 15px 15px 0 15px;
+    margin: 25px 15px 13px 15px;
 }
 
 .filtres a {
@@ -312,7 +328,7 @@ input {
 .ActCard figcaption {
     font-size: medium;
     font-weight: bolder;
-    padding: 5px 0 5px 10px;
+    padding: 15px 0 15px 20px;
 }
 
 /*FOOTER*/
@@ -338,9 +354,6 @@ footer {
     margin: 15px 0;
 }
 
-h3 {
-    margin-bottom: -2px;
-}
 .FooterList li {
     margin: 7px 0;
 }
