@@ -7,18 +7,12 @@ body {
     box-sizing: border-box;
 }
 
-main {
-    margin: 0;
-}
-
 section {
-    /*border: 1px red solid;*/
     padding: 10px 50px;
 }
 
 
 h1 {
-    /* display: none; (si on veut utiliser h2 pour les titres) */
     font-size: x-large;
     font-weight: bolder;
 }
@@ -33,7 +27,7 @@ h3 {
 }
 
 h4 {
-    font-size: medium;
+    font-size: 0.9em;
     margin: 0;
 }
 
@@ -61,10 +55,8 @@ header {
 }
 
 /*Les liens de la navigation*/
+
 .navigation {
-    
-    color:black;
-    text-decoration: none;
     padding: 26px 26px 26px 26px;
 }
 
@@ -173,7 +165,6 @@ input {
 .SectionHebergement {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .ConteneurHebergement {
@@ -181,9 +172,9 @@ input {
     flex-direction: column;
     width: 63%;
     background-color: #f2f2f2;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 20px 25px;
-    margin-right: 3px;
+
 }
 
 .ConteneurHebergement h2 {
@@ -192,6 +183,7 @@ input {
 
 #afficher {
     margin-left: 10px;
+    margin-top: 15px;
 }
 
 #afficher:hover {
@@ -203,8 +195,9 @@ input {
     flex-direction: column;
     width: 25%;
     background-color: #f2f2f2;
-    border-radius: 25px;
-    padding: 20px 35px;
+    border-radius: 20px;
+    padding: 20px 35px 0 35px;
+    margin-left: 25px;
 } 
 
 .OrganisationHeb {
@@ -218,10 +211,11 @@ input {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     box-sizing: border-box;
     margin-bottom: 25px;
-    margin-right: 3px;
+    margin-right: 5px;
+    padding: 5px 5px 0 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -231,20 +225,22 @@ input {
     height: 100px;
     object-fit: cover;
     max-width: 100%;
-    border-radius: 25px 25px 0 0;
-    padding: 5px 5px 0 5px;
+    border-radius: 20px 20px 0 0;
 }
 
 .CardDescription {
-    padding: 5px 0 10px 20px;
+    padding: 5px 0 10px 7px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
 }
 
 .CardDescription h4,p,i {
     margin: 3px 0 3px 0;
-    font-size: smaller;
+    font-size: 0.9em;
+}
+
+.CardDescription i {
+    font-size: 0.6em;
 }
 
 .note {
@@ -261,16 +257,15 @@ input {
     align-items: center;
 }
 
-
-
 .PopCard {
     display: flex;
     flex-direction: row;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     box-sizing: border-box;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 5px;
 }
 
 .PopCard img {
@@ -279,23 +274,25 @@ input {
     width: 115px;
     object-fit: cover;
     max-width: 100%;
-    border-radius: 25px 0 0 25px;
-    padding: 5px 0 5px 5px;
+    border-radius: 20px 0 0 20px;
 }
 
 .PopDescription {
     display: flex;
     flex-direction: column;
     width: 180px;
-    padding: 15px 0 15px 15px;
+    padding: 5px 0 5px 12px;
     justify-content: space-between;
     
 }
 
-.PopDescription h4,p,i {
-    font-size: smaller;
+.PopDescription h4,p {
+    font-size: 0.9em;
 }
 
+.PopDescription i {
+    font-size: 0.6em;
+}
 
 
 /*SECTION ACTIVITES*/
@@ -309,7 +306,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .ActCard {
@@ -317,12 +314,12 @@ input {
     flex-direction: column;
     background-color: white;
     border-radius: 25px;
-    box-sizing: border-box;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin: 0 0 25px 0;
+    margin: 0 5px 25px 0;
 }
 
 .ActCard img {
+    max-width: 100%;
     height: 400px;
     width: 280px;
     object-fit: cover;
@@ -330,7 +327,6 @@ input {
 }
 
 .ActCard figcaption {
-    font-size: smaller;
     font-weight: bolder;
     padding: 15px 0 15px 20px;
 }
@@ -341,7 +337,6 @@ footer {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin: 50px 50px 0 50px;
     padding: 20px 55px;
 }
@@ -349,7 +344,7 @@ footer {
 .FooterList {
     display: flex;
     flex-direction: column;
-    margin-right: 215px;
+    margin-right: 190px;
 }
 
 .FooterList ul {
