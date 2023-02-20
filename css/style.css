@@ -344,7 +344,7 @@ footer {
 .FooterList {
     display: flex;
     flex-direction: column;
-    margin-right: 190px;
+    margin-right: 200px;
 }
 
 .FooterList ul {
