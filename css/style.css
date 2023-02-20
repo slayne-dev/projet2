@@ -288,6 +288,7 @@ input {
 
 .PopDescription h4,p {
     font-size: 0.9em;
+    margin-bottom: 5px;
 }
 
 .PopDescription i {
