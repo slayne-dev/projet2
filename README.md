@@ -7,7 +7,7 @@ Date de réalisation : Janvier - Février 2023
 
 Maquette Figma à intégrer : https://www.figma.com/file/B3eLowtWREc9YXzBcGRAHn/Maquettes-Booki-(desktop)?node-id=3-0
 
-Lien du rendu final : 
+Lien du rendu final : slayne-dev.github.io/projet2/
 
 CONTEXTE
 
